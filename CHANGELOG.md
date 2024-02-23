@@ -7,13 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+* Initial README.md
 
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-[Unreleased]: <https://github.com/stac-extensions/template/compare/v1.0.0...HEAD>
+[Unreleased]: <https://github.com/DACCS-Climate/marble-stac-extension/compare/v1.0.0...HEAD>
