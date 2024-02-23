@@ -7,7 +7,9 @@
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
 - **Owner**: @dchandan
 
-This document explains the [Marble Platform](https://marbleclimate.com) specific extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification. It adds fields that describe the location of data on the Marble Network/Platform.
+This document explains the [Marble Platform](https://marbleclimate.com) specific extension to the 
+[SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification. It adds fields 
+that describe the location of data on the Marble Network/Platform.
 
 - Examples:
   - [Item example](examples/item.json): Shows the basic usage of the extension in a STAC Item
@@ -27,14 +29,15 @@ The fields in the table below can be used in these parts of STAC documents:
 
 | Field Name           | Type                      | Description                                  |
 | -------------------- | ------------------------- | -------------------------------------------- |
-| marble:host_node     | string                    | **REQUIRED**. Name of the Marble node hosting the data |
-| marble:is_local      | boolean                   | **REQUIRED**. Whether this data is local on the node being searched |
+| marble:host_node | string                    | **REQUIRED**. Name of the Marble node hosting the data |
+| marble:is_local      | boolean | **REQUIRED**. Whether this data is local on the node being searched |
 
 ### Additional Field Information
 
 #### marble:host_node
 
-This is a controlled vocabulary and the values can be one of the node names currently available in the [Marble node registry](https://github.com/DACCS-Climate/Marble-node-registry).
+This is a controlled vocabulary and the values can be one of the node names currently available in the 
+[Marble node registry](https://github.com/DACCS-Climate/Marble-node-registry).
 
 #### marble:is_local
 
