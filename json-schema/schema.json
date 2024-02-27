@@ -171,7 +171,8 @@
       "properties": {
         "marble:host_node": {
           "title": "Marble node hosting this data",
-          "type": "string"
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9]+$"
         },
         "marble:is_local": {
           "title": "Data locality identifier",
