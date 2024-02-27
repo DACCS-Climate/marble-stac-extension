@@ -35,8 +35,8 @@ The fields in the table below can be used in these parts of STAC documents:
 
 #### marble:host_node
 
-This is a controlled vocabulary and the values can be one of the node names currently available in the 
-[Marble node registry](https://github.com/DACCS-Climate/Marble-node-registry).
+This is a controlled vocabulary and the values can be one of the host IDs (not its display name or some other identifier) 
+currently available in the [Marble node registry](https://github.com/DACCS-Climate/Marble-node-registry).
 
 #### marble:is_local
 
