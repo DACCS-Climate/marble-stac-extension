@@ -3,7 +3,7 @@
   "$id": "https://github.com/DACCS-Climate/marble-stac-extension/v1.0.0/schema.json#",
   "title": "Marble Platform Extension",
   "description": "STAC Extension for data on the Marble Platform.",
-  "allOf": [
+  "oneOf": [
     {
       "$comment": "This is the schema for STAC Items. Remove this object if this extension only applies to Collections.",
       "allOf": [
