@@ -1,7 +1,7 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://github.com/DACCS-Climate/marble-stac-extension/v1.0.0/schema.json"
+    "https://raw.githubusercontent.com/DACCS-Climate/marble-stac-extension/v1.0.0/json-schema/schema.json"
   ],
   "type": "Feature",
   "id": "item",
